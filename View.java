@@ -6,10 +6,10 @@ public class View extends JFrame{
 	
 	private Panel fenetre;
 
-
 	public View (Panel fenetre) {
 		this.fenetre = fenetre;	
 		
+		// Le pacman et le background apparaissent parfaitement, mais le pacman ne bouge pas. Il ne bouge que si on commente les lignes 16, 17 et uncommenete la ligne 20
 		JFrame frame = new JFrame("PAC-MAN");
 		Jeu jeu = new Jeu();
 		frame.add(jeu);
