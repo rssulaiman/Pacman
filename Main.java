@@ -13,8 +13,6 @@ public class Main {
 		Jeu game = new Jeu();
 		Panel fenetre = new Panel(game);
 		View vue = new View(fenetre);
-
-		
 	}
 
 }
