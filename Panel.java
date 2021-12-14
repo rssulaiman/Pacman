@@ -17,7 +17,6 @@ public class Panel extends JComponent{
 
 	private static final long serialVersionUID = 1L;
 
-	
 	public Panel (Jeu game) {
 		super();
 		this.game = game;
